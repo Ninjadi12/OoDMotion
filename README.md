@@ -61,14 +61,20 @@ python3 interpretability.py --dataset 'cmu_mocap' --model_path "[Path To Your Tr
 If you use our code, and/or build on our work, please cite our paper:
 
 ```
-@misc{bourached2020generative,
-      title={Generative Model-Enhanced Human Motion Prediction}, 
-      author={Anthony Bourached and Ryan-Rhys Griffiths and Robert Gray and Ashwani Jha and Parashkev Nachev},
-      year={2020},
-      eprint={2010.11699},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{https://doi.org/10.1002/ail2.63,
+author = {Bourached, Anthony and Griffiths, Ryan-Rhys and Gray, Robert and Jha, Ashwani and Nachev, Parashkev},
+title = {Generative Model-Enhanced Human Motion Prediction},
+journal = {Applied AI Letters},
+volume = {n/a},
+number = {n/a},
+pages = {},
+doi = {https://doi.org/10.1002/ail2.63},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/ail2.63},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/ail2.63},
+abstract = {Abstract The task of predicting human motion is complicated by the natural heterogeneity and compositionality of actions, necessitating robustness to distributional shifts as far as out-of-distribution (OoD). Here we formulate a new OoD benchmark based on the Human3.6M and CMU motion capture datasets, and introduce a hybrid framework for hardening discriminative architectures to OoD failure by augmenting them with a generative model. When applied to current state-of-theart discriminative models, we show that the proposed approach improves OoD robustness without sacrificing in-distribution performance. We suggest human motion predictors ought to be constructed with OoD challenges in mind, and provide an extensible general framework for hardening diverse discriminative architectures to extreme distributional shift. The code is available at https: //github.com/bouracha/OoDMotion.}
 }
+
+
 ```
 
 ## Acknowledgments
